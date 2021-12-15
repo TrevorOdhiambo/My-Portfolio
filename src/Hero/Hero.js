@@ -10,7 +10,7 @@ const Hero = ()=>{
           Hello! I'm TREVOR...
           </h1>
           <p>
-            A Budding web developer!!! 
+            A Budding web developer driven by curiosity!!! 
           </p>
         
       </div>

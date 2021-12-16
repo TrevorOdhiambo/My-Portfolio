@@ -1,10 +1,31 @@
 .projects{
   margin-top: 70px;
+  width: 100vw;
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
+
+.projects::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: -0%;
+  top: -28%;
+  transform: rotate(180deg);
+  z-index: 10;
+  display: block;
+  height: 60px;
+  background-size: 50px 100%;
+  background-image: linear-gradient(135deg,   #ec874cbe 25%, transparent 25%), linear-gradient(225deg, #f5d78d 25%, transparent 25%);
+  background-position: 0 0;
+}
+
+
 .projects .title{
   font-size: 3rem;
   text-align: center;
@@ -13,11 +34,11 @@
 }
 
 .project-container{
-  width: 100vw;
+  width: 80%;
   margin-top: 10px;
   height: 200px;
-  background-color: #FBAB7E;
-background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+  
+
 
   padding: 20px;
 }

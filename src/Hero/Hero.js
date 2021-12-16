@@ -6,12 +6,12 @@ const Hero = ()=>{
     <section className="container">
       <Navbar/>
       <div className="introduction">
-        <h1 className="name">
+        {/* <h1 className="name">
           Hello! I'm TREVOR...
           </h1>
           <p>
             A Budding web developer driven by curiosity!!! 
-          </p>
+          </p> */}
         
       </div>
       <div className="buttons">

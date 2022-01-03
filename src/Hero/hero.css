@@ -22,3 +22,49 @@
   background-image: linear-gradient(135deg,   #6a8eb3 25%, transparent 25%), linear-gradient(225deg, #88aacc 25%, transparent 25%);
   background-position: 0 0;
 }
+
+.name{
+  color:teal;
+  font-size: 4rem;
+  text-align: center;
+
+}
+.introduction p{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.3rem;
+  text-align: center;
+  color: white;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap:2rem;
+
+}
+
+.btns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  padding:8px 16px;
+  background-color: teal;
+  color: white;
+  font-weight: 600;
+  font-size: 1.4rem;
+  border: 0;
+  outline: 0;
+  border-radius: 100px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.btns span{
+  color: white;
+}
+.btns:hover{
+  transform: scale(0.8);
+}

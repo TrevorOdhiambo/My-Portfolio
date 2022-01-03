@@ -6,18 +6,18 @@ const Hero = ()=>{
     <section className="container">
       <Navbar/>
       <div className="introduction">
-        {/* <h1 className="name">
+        <h1 className="name">
           Hello! I'm TREVOR...
           </h1>
           <p>
-            A Budding web developer driven by curiosity!!! 
-          </p> */}
+            A Budding web developer driven by curiosity!!! I hope to become an amazing problem solver and a brilliant developer - and the journey starts here.
+          </p>
         
       </div>
       <div className="buttons">
-         <button className="cv-btn">CV
-           </button>     
-         <button className="git-btn">Github</button>   
+         <a className="btns cv-btn">CV <span>&#8594;</span> 
+           </a>     
+         <a href='https://github.com/TrevorOdhiambo' className="btns git-btn">Github <span>&#8594;</span></a>   
       </div>
     </section>
   )

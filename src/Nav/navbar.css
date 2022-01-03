@@ -6,21 +6,18 @@
   height: 20vh;
  background-color: transparent;
 }
-.logo {
-  border: 10px dashed teal;
-  border-radius: 50%;
-  width: 70px;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 20px;
+
+.bar-icon{
+  color:white;
+  font-size: 2rem;
+  display: none;
 }
 .initials {
-  color: teal;
+  color: rgb(24, 85, 85);
+  margin-left: 20px;
 }
 .initials span {
-  color: orangered;
+  color: rgb(173, 81, 47);
 }
 
 ul {
@@ -53,4 +50,14 @@ ul li a:hover::after {
   left: 0;
   width: 100%;
   cursor: pointer;
+}
+
+@media screen and (max-width:550px){
+  ul{
+    display: none;
+  }
+  .bar-icon{
+    display:block;
+    margin-right:3rem;
+  }
 }

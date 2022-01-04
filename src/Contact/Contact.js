@@ -1,6 +1,6 @@
 import React,{useState } from "react"
 import './contact.css'
-import { db } from '../../src/firebase.js'
+
 const Contact = ()=>{
 
   

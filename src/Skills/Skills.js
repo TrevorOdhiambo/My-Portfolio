@@ -20,7 +20,7 @@ const Skills = ()=>{
         </div>
         <div className="tech-item">
           <p className="tech-name">REACT</p>
-          <p className="percentage">50%</p>
+          <p className="percentage">40%</p>
         </div>
         <div className="tech-item">
           <p className="tech-name">GIT</p>
@@ -32,7 +32,7 @@ const Skills = ()=>{
         </div>
         <div className="tech-item">
           <p className="tech-name">FIREBASE</p>
-          <p className="percentage">40%</p>
+          <p className="percentage">30%</p>
         </div>
         <div className="tech-item">
           <p className="tech-name">JSON</p>

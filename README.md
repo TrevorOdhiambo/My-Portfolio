@@ -1,3 +1,1 @@
-# react-trxt3e
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-trxt3e)
+This is the first iteration of my portfolio, an attempt at using all that I have learnt in React, Javascript , Css etc.

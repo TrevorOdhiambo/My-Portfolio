@@ -1,7 +1,14 @@
-import React from "react"
+import React, {useState} from "react"
 import './hero.css'
 import Navbar from '../Nav/Navbar'
+
+
 const Hero = ()=>{
+  const [isOpen, setIsOpen] = useState(false)
+
+  const handleClick = ()=>{
+    setIsOpen(true)
+  }
   return(
     <section className="container">
       <Navbar/>
@@ -15,10 +22,12 @@ const Hero = ()=>{
         
       </div>
       <div className="buttons">
-         <a className="btns cv-btn">CV <span>&#8594;</span> 
+         <a className="btns cv-btn" onClick={handleClick}>CV <span>&#8594;</span> 
            </a>     
          <a href='https://github.com/TrevorOdhiambo' className="btns git-btn">Github <span>&#8594;</span></a>   
+         
       </div>
+      
     </section>
   )
 
